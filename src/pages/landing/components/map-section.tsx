@@ -3,9 +3,9 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 
 const markers = [
-  { id: 0, x: 35, y: 45, icon: "/src/assets/images/map-pin-1.png", image: <MountainOutlineIcon className="cursor-pointer w-6 h-6" color="#562C2C" /> },
-  { id: 1, x: 55, y: 60, icon: "/src/assets/images/map-pin-2.png", image: <WhaleOutlineIcon className="cursor-pointer w-6 h-6" color="#562C2C" /> },
-  { id: 2, x: 70, y: 30, icon: "/src/assets/images/map-pin-3.png", image: <TargetOutlineIcon className="cursor-pointer w-6 h-6" color="#562C2C" /> },
+  { id: 0, x: 35, y: 45, icon: "/images/map-pin-1.png", image: <MountainOutlineIcon className="cursor-pointer w-6 h-6" color="#562C2C" /> },
+  { id: 1, x: 55, y: 60, icon: "/images/map-pin-2.png", image: <WhaleOutlineIcon className="cursor-pointer w-6 h-6" color="#562C2C" /> },
+  { id: 2, x: 70, y: 30, icon: "/images/map-pin-3.png", image: <TargetOutlineIcon className="cursor-pointer w-6 h-6" color="#562C2C" /> },
 ];
 
 
@@ -24,7 +24,7 @@ export default function MapSection() {
 
   return (
     <section data-aos="zoom-in-down" className="relative w-full py-10 px-6">
-      <div className="absolute inset-0 bg-[url('/src/assets/images/bg-map.png')] bg-cover bg-center z-0"></div>
+      <div className="absolute inset-0 bg-[url('/images/bg-map.png')] bg-cover bg-center z-0"></div>
 
       <div className="relative z-10 max-w-[1240px] mx-auto px-[16px] md:px-0">
         <div className="flex w-full items-center justify-between">
@@ -52,7 +52,7 @@ export default function MapSection() {
 
           className="relative w-full max-w-[1240px] mx-auto h-[400px] md:h-[698px] overflow-hidden rounded-lg bg-no-repeat"
           style={{
-            backgroundImage: `url('/src/assets/images/map.png')`,
+            backgroundImage: `url('/images/map.png')`,
             backgroundSize: activeMarker !== null ? "500%" : 'cover',
             backgroundPosition: activeMarker !== null
               ? `${markers[activeMarker].x}% ${markers[activeMarker].y}%`

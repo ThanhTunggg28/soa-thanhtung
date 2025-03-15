@@ -6,21 +6,21 @@ const CardSection = () => {
   const { t } = useTranslation();
   const cards = [
     {
-      image: "/src/assets/images/card-1.png",
+      image: "/images/card-1.png",
       category: t('bloc_1.cases.0.category'),
       title: t('bloc_1.cases.0.tagline'),
       description: t('bloc_1.cases.0.description'),
       buttonText: t('bloc_1.cases.0.cta'),
     },
     {
-      image: "/src/assets/images/card-2.png",
+      image: "/images/card-2.png",
       category: t('bloc_1.cases.1.category'),
       title: t('bloc_1.cases.1.tagline'),
       description: t('bloc_1.cases.1.description'),
       buttonText: t('bloc_1.cases.1.cta'),
     },
     {
-      image: "/src/assets/images/card-3.png",
+      image: "/images/card-3.png",
       category: t('bloc_1.cases.2.category'),
       title: t('bloc_1.cases.2.tagline'),
       description: t('bloc_1.cases.2.description'),

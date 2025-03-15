@@ -4,7 +4,7 @@ const ExploreSection = () => {
   const { t } = useTranslation();
   return (
     <div data-aos="flip-up" className="relative w-full  h-[483px] md:h-[400px] lg:h-[500px] flex  justify-center text-center pt-[100px]">
-      <div className="absolute inset-0 bg-[url('/src/assets/images/explore.png')] bg-cover bg-center z-0 bg-no-repeat"></div>
+      <div className="absolute inset-0 bg-[url('/images/explore.png')] bg-cover bg-center z-0 bg-no-repeat"></div>
       <div className="relative z-10 px-4 max-w-[650px] mx-auto">
         <span className="text-[24px] font-semibold text-secondary flex flex-col items-center">
           {t('bloc_6.title')} <span className="text-secondary/50">{t('bloc_6.subtitle')}</span>

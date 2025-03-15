@@ -27,7 +27,7 @@ const ExperienceSection = () => {
           </div>
         </div>
         <img
-          src="/src/assets/images/ice-cream.png"
+          src="/images/ice-cream.png"
           alt="Ice Cream"
           className="rounded-lg shadow-lg w-full md:w-[40%]"
         />

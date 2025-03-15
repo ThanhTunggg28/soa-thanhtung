@@ -13,7 +13,7 @@ import MapSection from './components/map-section';
 
 
 const App: React.FunctionComponent = () => {
-  return <div className='overflow-x-hidden'>
+  return <div className='overflow-hidden'>
     <Header />
     <HeroSection />
     <CardSection />

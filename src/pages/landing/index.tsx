@@ -1,14 +1,14 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import Footer from '../layout/footer';
 import Header from '../layout/header';
 import ActivityForm from './components/activity';
-import Chat from './components/chat';
-import HeroSection from './components/hero-section';
 import CardSection from './components/card-section';
-import MapSection from './components/map-section';
-import HorizontalCardSection from './components/horizontal-sard-section';
+import Chat from './components/chat';
 import ExperienceSection from './components/experience-section';
 import ExploreSection from './components/explore-section';
+import HeroSection from './components/hero-section';
+import HorizontalCardSection from './components/horizontal-sard-section';
+import MapSection from './components/map-section';
 
 
 

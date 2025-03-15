@@ -42,7 +42,7 @@ const CardSection = () => {
             <img src={card.image} alt={card.title} className="w-full h-[200px] md:h-[240px] lg:h-[355px] xl:h-[397px] object-cover rounded-xl" />
             <div className="mt-4 ">
               <p className="text-[20px] text-primary font-medium">{card.category}</p>
-              <h3 className="text-[28px] font-medium text-secondary">{card.title}</h3>
+              <h3 className="text-[28px] font-medium text-secondary h-[84px]">{card.title}</h3>
               <p className="text-secondary/60 text-[18px] mt-2">{card.description}</p>
               <button className="mt-4 flex items-center justify-center gap-2 border border-secondary/30 rounded-full px-4 py-2 text-sm font-medium text-secondary hover:bg-[#FFEDE8] transition">
                 {card.buttonText} <ArrowTopRightIcon color="#0E9594" />

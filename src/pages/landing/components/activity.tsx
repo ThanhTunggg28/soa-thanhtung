@@ -1,20 +1,8 @@
-import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import Calendar from "./calendar";
 import ContactForm from "./form";
 
-const days = [
-  { date: 1, status: "Occupé" },
-  { date: 2, status: "Occupé" },
-  { date: 3, status: "Libre" },
-  { date: 4, status: "Occupé" },
-  { date: 5, status: "Libre" },
-  { date: 6, status: "Libre" },
-  { date: 7, status: "Libre" },
-  { date: 8, status: "Libre" },
-  { date: 9, status: "Libre" },
-  { date: 10, status: "Libre" },
-];
+
 
 export default function ActivityForm() {
   const { t } = useTranslation();

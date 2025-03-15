@@ -1,10 +1,9 @@
 import { MountainOutlineIcon, TargetOutlineIcon, WhaleOutlineIcon } from '@/components/icons';
 import React from 'react';
 
-interface IHeroSectionProps {
-}
 
-const HeroSection: React.FunctionComponent<IHeroSectionProps> = (props) => {
+
+const HeroSection: React.FunctionComponent = () => {
   return <div className="relative w-full h-screen overflow-hidden">
 
     <img src={'/src/assets/images/hero-bg.png'} alt="" className="absolute top-1/2 left-1/2 w-full h-full object-cover -translate-x-1/2 -translate-y-1/2" />

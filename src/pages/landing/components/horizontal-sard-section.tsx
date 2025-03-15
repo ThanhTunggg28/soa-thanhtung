@@ -11,19 +11,19 @@ const HorizontalCardSection = () => {
 
     },
     {
-      image: "/src/assets/images/image.jpg",
+      image: "/src/assets/images/image2.jpg",
       category: t('bloc_3.cases.1.category'),
       title: t('bloc_3.cases.1.tagline'),
       description: t('bloc_3.cases.1.description'),
     },
     {
-      image: "/src/assets/images/image.jpg",
+      image: "/src/assets/images/image3.jpg",
       category: t('bloc_3.cases.2.category'),
       title: t('bloc_3.cases.2.tagline'),
       description: t('bloc_3.cases.2.description'),
     },
     {
-      image: "/src/assets/images/image.jpg",
+      image: "/src/assets/images/image4.jpg",
       category: t('bloc_3.cases.3.category'),
       title: t('bloc_3.cases.3.tagline'),
       description: t('bloc_3.cases.3.description'),
